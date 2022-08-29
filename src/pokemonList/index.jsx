@@ -9,7 +9,7 @@ export const PokemonList = () => {
         `https://pokeapi.co/api/v2/pokemon?limit=151`
       );
       const responseJson = await response.json();
-      console.log(responseJson);
+
       setApiData(responseJson.results);
     };
 

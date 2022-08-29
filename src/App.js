@@ -3,7 +3,7 @@ import { PokemonList } from "./pokemonList";
 function App() {
   return (
     <>
-      <h1>Hi!</h1>
+      <h1>DevALMO, YouTube Channel</h1>
 
       <PokemonList />
     </>
